@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import serviceWorker from './serviceWorker';
+import {register} from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker();
+//CHANGES: I think you wanted to register your service here
+register();
